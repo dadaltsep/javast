@@ -16,13 +16,13 @@ form.addEventListener("submit", (e)=>{
         return
     }
 
-    resp.innertext = `Lados podem formar um triângulo`
+    resp.innerText = `Lados podem formar um triângulo`
 
     if(LadoA == LadoB && LadoA == LadoC){
-        resp1.innertext = `Tipo: Equilátero`
+        resp1.innerText = `Tipo: Equilátero`
     }else if((LadoA == LadoB) || (LadoA == LadoC) || (LadoB == LadoC )){
-        resp1.innertext = `Tipo: isóceles`
+        resp1.innerText = `Tipo: isóceles`
     }else{
-        resp1.innertext = `Tipo: Escaleno`
+        resp1.innerText = `Tipo: Escaleno`
     }
 })
